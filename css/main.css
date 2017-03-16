@@ -1,0 +1,30 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+body {
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none;
+    display: inline-block; }
+    ul li a {
+      cursor: pointer;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      display: inline-block; }
+      ul li a.active {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg); }
+  ul.red {
+    background: red; }
+  ul.blue {
+    background: blue; }
+  ul.green {
+    background: green; }
